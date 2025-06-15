@@ -15,5 +15,7 @@ Algoritma ini bekerja dengan menyisipkan elemen satu per satu ke posisi yang ses
 - Menunjukkan proses penyisipan data dalam pengurutan.
 
 ## 👩‍💻 Penulis
-*April Dwi Amalia*  
+*April Dwi Amalia* 
+*241091900379*
+*kelas 02SKMM003*
 Tugas Algoritma & Pemrograman
