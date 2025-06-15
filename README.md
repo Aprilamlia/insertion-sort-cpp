@@ -1,22 +1,32 @@
-# Insertion Sort - C++
+## nama : April dwi amalia 
+## nim : 241091900379
+## kelas : 02SKMM003
 
-Program ini dibuat untuk mengurutkan data menggunakan algoritma *Insertion Sort* dalam bahasa C++.  
-Algoritma ini bekerja dengan menyisipkan elemen satu per satu ke posisi yang sesuai, sehingga lama-lama seluruh array jadi urut.
+# Insertion Sort adalah algoritma pengurutan (sorting) yang bekerja seperti saat kita mengurutkan kartu remi di tangan. Kita mulai dari kartu kedua, dan membandingkannya dengan kartu di sebelah kirinya, lalu menyisipkan (insert) kartu itu ke tempat yang tepat. Begitu seterusnya hingga semua kartu terurut.
 
-##  Cara kerja program
-- Program mencetak isi array sebelum diurutkan.
-- Memproses elemen satu per satu, dimulai dari elemen kedua.
-- Jika ada elemen yang lebih besar sebelumnya, elemen itu digeser.
-- Setelah itu, elemen yang sedang dicek dimasukkan ke posisi yang sesuai.
-- Hasil akhirnya adalah array yang sudah terurut dari kecil ke besar.
+# Langkah-langkah Insertion Sort:
+Misalnya kita punya array:
+[8, 4, 1, 5, 2]
 
-##  Tujuan
-- Melatih pemahaman tentang sorting dasar.
-- Menunjukkan proses penyisipan data dalam pengurutan.
+# 1. Mulai dari elemen ke-2 (indeks 1):
+Bandingkan 4 dengan 8 → karena 4 < 8, maka geser 8 ke kanan.
+Masukkan 4 ke tempat sebelumnya → [4, 8, 1, 5, 2]
 
-## 👩‍💻 Penulis
-*April Dwi Amalia* 
-*241091900379*
-*kelas 02SKMM003*
-Tugas Algoritma & Pemrograman
-link https://github.com/Aprilamlia/insertion-sort-cpp
+# 2. Elemen ke-3 (indeks 2):
+
+Bandingkan 1 dengan 8 → geser 8
+Bandingkan 1 dengan 4 → geser 4
+Masukkan 1 ke tempat yang kosong → [1, 4, 8, 5, 2]
+
+# 3. Elemen ke-4 (indeks 3):
+
+Bandingkan 5 dengan 8 → geser 8
+Bandingkan 5 dengan 4 → tidak perlu geser
+Masukkan 5 → [1, 4, 5, 8, 2]
+
+# 4. Elemen ke-5 (indeks 4):
+
+Bandingkan 2 dengan 8 → geser 8
+Bandingkan 2 dengan 5 → geser 5
+Bandingkan 2 dengan 4 → geser 4
+Masukkan 2 → [1, 2, 4, 5, 8]
