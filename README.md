@@ -1,11 +1,12 @@
-## nama : April dwi amalia 
-## nim : 241091900379
-## kelas : 02SKMM003
+nama : April dwi amalia 
+nim : 241091900379
+kelas : 02SKMM003
 
+penjelasan nya :
 Insertion Sort adalah algoritma pengurutan (sorting) yang bekerja seperti saat kita mengurutkan kartu remi di tangan. Kita mulai dari kartu kedua, dan membandingkannya dengan kartu di sebelah kirinya, lalu menyisipkan (insert) kartu itu ke tempat yang tepat. Begitu seterusnya hingga semua kartu terurut.
 
 Langkah-langkah Insertion Sort:
-Misalnya kita punya array:
+array:
 [8, 4, 1, 5, 2]
 1. Mulai dari elemen ke-2 (indeks 1):
 Bandingkan 4 dengan 8 → karena 4 < 8, maka geser 8 ke kanan.
